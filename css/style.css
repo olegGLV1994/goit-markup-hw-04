@@ -102,15 +102,23 @@ body {
   margin-left: auto;
 }
 
+.header-email-icon {
+  margin-right: 10px;
+}
+
 .header-auth-link {
   color: var(--text-color);
   font-weight: 500;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 .header-auth-link:hover,
 .header-auth-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .visited:visited {
@@ -124,6 +132,9 @@ body {
   min-height: 600px;
   display: flex;
   align-items: center;
+  background-image: url(/Img/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero .container {
@@ -184,6 +195,16 @@ body {
   line-height: 1.7;
 }
 
+.advantage-icon-border {
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
 /* --------------------WORK-------------------------- */
 
 .work {
@@ -228,6 +249,24 @@ body {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.team-icon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-icon-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #2196f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-icon-link {
 }
 
 /* ---------------FOOTER------------- */
