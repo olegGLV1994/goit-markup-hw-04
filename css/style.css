@@ -248,25 +248,35 @@ body {
   font-size: 16px;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .team-icon-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
 }
 
 .team-icon-item {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #2196f3;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.team-icon-link {
+.team-icon-item:hover {
+  background-color: var(--accent-color);
+}
+
+.team-icon-item:hover .team-soc-icon {
+  fill: #ffffff;
+}
+
+.team-soc-icon {
+  fill: #afb1b8;
 }
 
 /* ---------------FOOTER------------- */
