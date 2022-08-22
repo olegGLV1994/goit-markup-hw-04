@@ -106,12 +106,6 @@ body {
   margin-right: 10px;
 }
 
-.header-phone-icon {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-}
-
 .header-auth-link {
   color: var(--text-color);
   font-weight: 500;
@@ -317,8 +311,10 @@ body {
   align-items: center;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   border-color: var(--accent-color);
+  outline: none;
 }
 
 .clients-link:hover .clients-icon {
